@@ -1,6 +1,10 @@
+trybe-skills-updates
+internet
+=======
 O que vou aprender na trybe:
 -unix
 -bash
 -git
 -HTML
 -CSS
+master
