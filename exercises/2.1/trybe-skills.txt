@@ -2,3 +2,5 @@ O que vou aprender na trybe:
 -unix
 -bash
 -git
+-HTML
+-CSS
