@@ -1,0 +1,20 @@
+.Position-page{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+.Style-table,table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color:khaki;
+    table-layout:inherit;
+   
+}
+.Style-table{
+    float: right;
+}
