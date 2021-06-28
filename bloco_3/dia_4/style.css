@@ -4,7 +4,7 @@ body{
 }
 .buttons-header{
     color: #fff;
-    background-colo: aquamarine;
+    background-color: aquamarine;
     padding: 10px;
     text-decoration: none;
     border-radius: 4px;
@@ -29,17 +29,19 @@ h1{
     color: rgb(37, 37, 56);
 }
 
-.Position-page{
+.position-page{
     margin-top: 40px;
     text-align:left;
+}
+
+.style-table{
+    float: right;
 }
 
 
 
 
-
-
-.Style-table,table, th, td{
+.style-table,table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
@@ -47,6 +49,4 @@ h1{
 
    
 }
-.Style-table{
-    float: right;
-}
+
