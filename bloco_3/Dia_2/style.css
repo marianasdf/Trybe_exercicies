@@ -1,0 +1,26 @@
+h1{
+    font-size: 60px;
+    color:orangered;
+    font-family: sans-serif;
+    font-style: oblique;
+    line-height: 0mm;
+    text-align: center;
+    text-decoration: currentColor;
+}
+ul{
+    background-color: orangered;
+}
+.cor-de-fundo{
+    background-color: palegoldenrod;
+}
+p{
+    font-weight: 600;
+    font-size: 3em;
+
+}
+body{
+    font-size: 16px;
+}
+#Amarelo{ background-color: yellow;}
+#Vermelho{ background-color: red;}
+#Marrom{ background-color: brown;}
