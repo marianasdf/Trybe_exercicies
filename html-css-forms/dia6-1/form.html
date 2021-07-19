@@ -1,17 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>form</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	
-	<fieldset id= 'cv-form'>
+
+	<header class = "form-header">
+		<h1>
+			Formulário de Currículo
+		</h1>
+		<p>Preencha os campos abaixo.</p>
+	</header>
+
+	<fieldset id='cv-form'>
 		<div class="lineContent">
 			<label for="">Nome: </label>
 			<input type="text" name="name" id="name" maxlength="40" required>
@@ -41,8 +48,8 @@
 		<div class="lineContent">
 			<label for="tipoMoradia">Tipo de Imóvel: </label>
 			<input type="radio" name="tipoMoradia" id="house" value="house" required> <span>Casa</span>
-            <input type="radio" name="tipoMoradia" id="apartment" value="apartment" required>
-            <span>Apartamento</span>
+			<input type="radio" name="tipoMoradia" id="apartment" value="apartment" required>
+			<span>Apartamento</span>
 		</div>
 	</fieldset>
 	<fieldset>
