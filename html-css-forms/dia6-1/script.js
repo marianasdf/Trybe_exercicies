@@ -144,6 +144,7 @@ window.onload = function () {
             }
             if (inputs[input].type && inputs[input].type === 'radio') {
                 let checked = document.querySelector(`[name=${input}]:checked`)
+                console.log(ch)
                 if (checked === null) {
                     errorValidation.push(input + ': selecione pelo menos uma opção!')
                 }
