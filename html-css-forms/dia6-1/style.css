@@ -1,42 +1,42 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(236, 205, 210);
 }
 
 .form-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px auto;
-    font-style: italic;
-    color: rgb(39, 39, 39);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  font-style: italic;
+  color: rgb(39, 39, 39);
 }
 
 .main-style {
-    background-color: white;
-    border: 1px solid rgb(182, 212, 243);
-    border-radius: 3px;
-    width: 80%;
-    padding: 50px;
-    margin: 40px auto;
+  background-color: white;
+  border: 1px solid rgb(182, 212, 243);
+  border-radius: 3px;
+  width: 80%;
+  padding: 50px;
+  margin: 40px auto;
 }
 
-.lineContent {
-    display: flex;
-    justify-content: flex-start;
-    margin: 10px auto;
+.container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px auto;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bolder;
 }
 
 .cv-form {
-    padding: 0 50px;
-    margin: 40px auto;
-}
-
-.lineContent input[type="text"] {
-    width: 100%;
-    padding: 10px;           /* estilização  aula ao vivo 6.1 Bernardo */
-    font-size: 14px;
-    border-radius: 5px;
-    border: 1px solid rgb(101, 114, 121);
+  padding: 0 50px;
+  margin: 40px auto;
 }
