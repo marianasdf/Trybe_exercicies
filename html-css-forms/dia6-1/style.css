@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(236, 205, 210);
+}
+
+.form-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  font-style: italic;
+  color: rgb(39, 39, 39);
+}
+
+.main-style {
+  background-color: white;
+  border: 1px solid rgb(182, 212, 243);
+  border-radius: 3px;
+  width: 80%;
+  padding: 50px;
+  margin: 40px auto;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px auto;
+}
+
+label {
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+.cv-form {
+  padding: 0 50px;
+  margin: 40px auto;
+}
