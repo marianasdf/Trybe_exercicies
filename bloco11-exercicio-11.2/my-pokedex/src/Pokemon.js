@@ -5,7 +5,7 @@ class Pokemon extends React.Component {
     const { pokemon: { name, type, averageWeight, image } } = this.props
 
     return (
-      <section>
+      <section className="pokemon">
         <div>
           <p> {name} </p>
           <p> {type} </p>
